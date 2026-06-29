@@ -1,0 +1,2 @@
+After clone this project first thing install node packege type "npm i" and click enter wait some time and run project 
+resume - updated link - https://drive.google.com/file/d/1FFU3RVDlqKoL7LAN0_6y9A6z23kLnhI0/view?usp=sharing

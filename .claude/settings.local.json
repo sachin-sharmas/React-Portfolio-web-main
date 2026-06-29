@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "PowerShell(pip install pypdf 2>&1)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(taskkill /PID 29192 /F)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "PowerShell(Stop-Process -Id 29192 -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 2; \\(Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue\\) | Select-Object -ExpandProperty OwningProcess)",
+      "PowerShell(Stop-Process -Id 14160 -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; \\(Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue\\).OwningProcess)"
+    ]
+  }
+}
