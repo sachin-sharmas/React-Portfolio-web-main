@@ -15,11 +15,8 @@ const ThankYou = () => {
 
   return (
     <Layout>
-      <div
-        className="min-h-screen flex items-center justify-center px-8"
-        style={{ minHeight: 'calc(100vh - 160px)' }}
-      >
-        <div className="text-center max-w-xl w-full">
+      <div className="w-full px-5 lg:px-16 xl:px-24 pt-16 pb-20">
+        <div className="text-center max-w-xl mx-auto">
 
           {/* Animated check icon */}
           <motion.div
