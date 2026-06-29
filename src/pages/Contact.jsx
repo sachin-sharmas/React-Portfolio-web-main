@@ -8,7 +8,8 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { Bio } from '../Data/info';
 
-const APPS_SCRIPT_URL = process.env.REACT_APP_APPS_SCRIPT_URL;
+const APPS_SCRIPT_URL = process.env.REACT_APP_APPS_SCRIPT_URL
+  || 'https://script.google.com/macros/s/AKfycby5tsXUhQsrGk0otTGU2uT4XyN5xyqYs5VTvQoMsBHmva3FzLeMvTTYKzeIWMYaKwIVSg/exec';
 
 const contactInfo = [
   {
